@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class Cube : MonoBehaviour
+{
+    //EJERCICIO: Dibuja un cubo en tres dimensiones.
+    
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
