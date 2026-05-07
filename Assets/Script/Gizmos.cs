@@ -75,7 +75,7 @@ public class Gizmos : MonoBehaviour
 
     void PintarLínea()
     {
-        //Pintamos una lía del punto 1 al punto 2
+        //Pintamos una línea del punto 1 al punto 2
         Debug.DrawLine(point1, point2); //Debug.DrawLine puede recibir tres parametros, pero vamos a empezar con dos.
 
 

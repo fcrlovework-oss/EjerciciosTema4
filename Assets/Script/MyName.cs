@@ -12,9 +12,6 @@ public class MyName : MonoBehaviour
     public Transform M;
     public Transform SegundaA;
 
-
-    
-    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,6 +21,13 @@ public class MyName : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vision2D();
+    }
+
+    //Métodos privados
+
+    void Vision2D()
+    {
         LetraF(F.position);
         LetraA(A.position);
         LetraT(T.position);
@@ -31,9 +35,6 @@ public class MyName : MonoBehaviour
         LetraM(M.position);
         LetraA(SegundaA.position);
     }
-
-    //Métodos privados
-
     void Posiciones()
     {
         F.position = new Vector2(-5, 0);
@@ -44,6 +45,7 @@ public class MyName : MonoBehaviour
         SegundaA.position = new Vector2(4.5f, 0);
     }
 
+    //Nombre en 2D
     void LetraF(Vector2 origen)
     {
         Debug.DrawLine(origen + new Vector2(0, 0), origen + new Vector2(0, 2));
@@ -73,4 +75,5 @@ public class MyName : MonoBehaviour
         Debug.DrawLine(origen + new Vector2(1, 1), origen + new Vector2(2, 2));
         Debug.DrawLine(origen + new Vector2(2, 2), origen + new Vector2(2, 0));
     }
+
 }
