@@ -388,7 +388,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0.01297962, y: 0.16272971, z: -0.011123037, w: 0.9865227}
-  m_LocalPosition: {x: 25.2, y: 12.1, z: 17.4}
+  m_LocalPosition: {x: -44, y: -5, z: -240}
   m_LocalScale: {x: 4.27, y: 4.27, z: 4.27}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -639,15 +639,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2020327957831172501, guid: 0378d409cda65db498bd1e86f8be5def, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2020327957831172501, guid: 0378d409cda65db498bd1e86f8be5def, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2020327957831172501, guid: 0378d409cda65db498bd1e86f8be5def, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2020327957831172501, guid: 0378d409cda65db498bd1e86f8be5def, type: 3}
       propertyPath: m_LocalRotation.w
@@ -975,7 +975,7 @@ Transform:
   m_GameObject: {fileID: 788179396}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2006092, y: 1.8690195, z: 23.070103}
+  m_LocalPosition: {x: 23.3, y: 0, z: 0}
   m_LocalScale: {x: 1.85, y: 1.85, z: 1.85}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -996,8 +996,8 @@ MonoBehaviour:
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 20
   ejeRotacion: {x: 0, y: 5, z: 0}
-  rotationAngle: 0
-  speedRotationAround: 0
+  rotationAngle: 10
+  speedRotationAround: 1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,7 +1245,7 @@ Transform:
   m_GameObject: {fileID: 950673319}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.900604, y: 1.5690193, z: 65.5701}
+  m_LocalPosition: {x: 74.1, y: 0, z: 0}
   m_LocalScale: {x: 10.93, y: 10.93, z: 10.93}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1266,8 +1266,8 @@ MonoBehaviour:
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 30
   ejeRotacion: {x: 2, y: 1, z: 0}
-  rotationAngle: 0
-  speedRotationAround: 0
+  rotationAngle: 5
+  speedRotationAround: 2
 --- !u!1 &979824953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,7 +1648,7 @@ Transform:
   m_GameObject: {fileID: 1198117147}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.10061, y: 1.1690197, z: 65.5701}
+  m_LocalPosition: {x: 135.3, y: 0, z: 0}
   m_LocalScale: {x: 14.200001, y: 14.200001, z: 14.200001}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1669,8 +1669,8 @@ MonoBehaviour:
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 10
   ejeRotacion: {x: 5, y: 10, z: 0}
-  rotationAngle: 0
-  speedRotationAround: 0
+  rotationAngle: 4
+  speedRotationAround: 3
 --- !u!1 &1213234649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1715,7 @@ Transform:
   m_GameObject: {fileID: 1213234649}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.79939, y: 11.83098, z: 11.3299}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1923,7 +1923,7 @@ Transform:
   m_GameObject: {fileID: 1363560812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.800608, y: 1.9690199, z: 41.870102}
+  m_LocalPosition: {x: 45.1, y: 0, z: 0}
   m_LocalScale: {x: 6.6, y: 6.6, z: 6.6}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1944,8 +1944,8 @@ MonoBehaviour:
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 10
   ejeRotacion: {x: 1, y: 10, z: 0}
-  rotationAngle: 0
-  speedRotationAround: 0
+  rotationAngle: 15
+  speedRotationAround: 1
 --- !u!1 &1455723493
 GameObject:
   m_ObjectHideFlags: 0
