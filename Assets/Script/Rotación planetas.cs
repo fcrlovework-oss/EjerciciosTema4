@@ -9,18 +9,15 @@ public class Rotaciónplanetas : MonoBehaviour
     public float rotationAngle;
     public float speedRotationAround;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public bool activarEjeRotación;
 
     // Update is called once per frame
     void Update()
     {
         RotacionPropia();
         RotaAlrededor();
+        if (activarEjeRotación == true)
+            EjePlaneta();
     }
 
     //Métodos Privados
@@ -33,5 +30,17 @@ public class Rotaciónplanetas : MonoBehaviour
     {
         transform.RotateAround(puntoDeGiro.position, Vector3.forward, rotationAngle * Time.deltaTime * speedRotationAround);
         
+    }
+
+    void EjePlaneta()
+    {
+        float longitudEje = transform.localScale.y * 1f;
+
+        Vector3 direccion = transform.up;
+
+        Vector3 inicio = transform.position - direccion * longitudEje;
+        Vector3 final = transform.position + direccion * longitudEje;
+
+        Debug.DrawLine(inicio, final, Color.green);
     }
 }
