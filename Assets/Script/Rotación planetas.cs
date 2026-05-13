@@ -10,6 +10,7 @@ public class Rotaciónplanetas : MonoBehaviour
     public float speedRotationAround;
 
     public bool activarEjeRotación;
+    public float longitudOriginalEje;
 
     // Update is called once per frame
     void Update()
@@ -34,7 +35,7 @@ public class Rotaciónplanetas : MonoBehaviour
 
     void EjePlaneta()
     {
-        float longitudEje = transform.localScale.y * 1f;
+        float longitudEje = transform.localScale.y * longitudOriginalEje;
 
         Vector3 direccion = transform.up;
 

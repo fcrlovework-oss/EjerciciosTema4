@@ -568,6 +568,8 @@ MonoBehaviour:
   ejeRotacion: {x: 5, y: 0, z: 0}
   rotationAngle: -10
   speedRotationAround: 10
+  "activarEjeRotaci\xF3n": 0
+  longitudOriginalEje: 6
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,6 +1131,8 @@ MonoBehaviour:
   ejeRotacion: {x: 0, y: 5, z: 0}
   rotationAngle: 10
   speedRotationAround: 1
+  "activarEjeRotaci\xF3n": 1
+  longitudOriginalEje: 1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,9 +1403,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: "Assembly-CSharp::Rotaci\xF3nplanetas"
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 10
-  ejeRotacion: {x: 5, y: 0, z: 0}
+  ejeRotacion: {x: 1, y: 10, z: 0}
   rotationAngle: 5
   speedRotationAround: 2
+  "activarEjeRotaci\xF3n": 1
+  longitudOriginalEje: 1
 --- !u!1 &979824953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,7 +1695,7 @@ GameObject:
   - component: {fileID: 1198117149}
   - component: {fileID: 1198117148}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: Saturno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1803,9 +1809,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: "Assembly-CSharp::Rotaci\xF3nplanetas"
   puntoDeGiro: {fileID: 440266549}
   speedRotation: 10
-  ejeRotacion: {x: 5, y: 10, z: 0}
+  ejeRotacion: {x: 1, y: 10, z: 0}
   rotationAngle: 4
   speedRotationAround: 3
+  "activarEjeRotaci\xF3n": 1
+  longitudOriginalEje: 1
 --- !u!1 &1213234649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2091,8 @@ MonoBehaviour:
   ejeRotacion: {x: 1, y: 10, z: 0}
   rotationAngle: 15
   speedRotationAround: 1
+  "activarEjeRotaci\xF3n": 1
+  longitudOriginalEje: 1
 --- !u!1 &1373389193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,6 +2224,8 @@ MonoBehaviour:
   ejeRotacion: {x: 1, y: 0, z: 0}
   rotationAngle: 10
   speedRotationAround: 1
+  "activarEjeRotaci\xF3n": 0
+  longitudOriginalEje: 5
 --- !u!1 &1455723493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,6 +2629,8 @@ MonoBehaviour:
   ejeRotacion: {x: 0, y: 5, z: 0}
   rotationAngle: 5
   speedRotationAround: 1
+  "activarEjeRotaci\xF3n": 0
+  longitudOriginalEje: 2
 --- !u!1 &1705088154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2839,6 +2853,8 @@ MonoBehaviour:
   ejeRotacion: {x: 1, y: 5, z: 0}
   rotationAngle: 15
   speedRotationAround: 10
+  "activarEjeRotaci\xF3n": 0
+  longitudOriginalEje: 9
 --- !u!1 &2089692844
 GameObject:
   m_ObjectHideFlags: 0
