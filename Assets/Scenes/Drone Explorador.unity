@@ -5698,7 +5698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361101338}
-  - component: {fileID: 1361101337}
+  - component: {fileID: 1361101339}
   m_Layer: 0
   m_Name: InputContoller
   m_TagString: Untagged
@@ -5706,18 +5706,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1361101337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361101336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5725d09a1cc7a954fb89c0afe115e399, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovimientoPlayer
 --- !u!4 &1361101338
 Transform:
   m_ObjectHideFlags: 0
@@ -5733,6 +5721,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1361101339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361101336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289d35e4e2dbd6e42ae5ab621613a4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoPlayerFinal
+  PlayerDrone: {fileID: 1382628846}
+  Camara: {fileID: 23810477}
+  sensibilidadRaton: 0
+  playerSpeed: 10
 --- !u!1 &1382628845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5762,7 +5766,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 23810477}
   - {fileID: 1273413448}
   - {fileID: 967559211}
   - {fileID: 946493713}
@@ -5773,6 +5776,7 @@ Transform:
   - {fileID: 405113166}
   - {fileID: 1923389641}
   - {fileID: 1022663924}
+  - {fileID: 23810477}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1400923223
