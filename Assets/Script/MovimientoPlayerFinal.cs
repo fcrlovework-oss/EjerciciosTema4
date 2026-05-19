@@ -7,7 +7,6 @@ public class MovimientoPlayerFinal : MonoBehaviour
     public Transform Camara;
     public float sensibilidadRaton;
     public float playerSpeed;
-    public bool rotacionCamara;
 
     //Atributos Privados
     InputSystem_Actions playerActions;
@@ -15,6 +14,7 @@ public class MovimientoPlayerFinal : MonoBehaviour
     Vector2 LookInputCamara;
     float flyInputPlayer;
     float zoomCamara;
+    float rotacionVerticalCamara;
 
     private void Awake()
     {
@@ -59,16 +59,15 @@ public class MovimientoPlayerFinal : MonoBehaviour
         
         movimientoDron.Normalize();
         PlayerDrone.transform.position += movimientoDron * playerSpeed * Time.deltaTime;
-    
-        if (rotacionCamara == true)
-        {
-            float mouseX = LookInputCamara.x;
-            float mouseY = LookInputCamara.y;
 
-            PlayerDrone.Rotate(Vector3.up * mouseX);
-            Camara.Rotate(Vector3.right * mouseY);
-        }
-        
+        float mouseX = LookInputCamara.x * sensibilidadRaton * Time.deltaTime;
+        float mouseY = LookInputCamara.y * sensibilidadRaton * Time.deltaTime;
+
+        PlayerDrone.Rotate(Vector3.up * mouseX);
+        rotacionVerticalCamara -= mouseY;
+        rotacionVerticalCamara = Mathf.Clamp(rotacionVerticalCamara, -90f, 90f);
+
+        Camara.localRotation = Quaternion.Euler(rotacionVerticalCamara, 0f, 0f);
 
     }
 }
